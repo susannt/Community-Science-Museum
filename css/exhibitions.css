@@ -1,0 +1,18 @@
+.banner {
+    background-image: url("background-images/exhibition.jpg");
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.exhibitions {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 380px;
+    gap: 50px;
+    margin: 40px 30px 80px 30px;
+}
+
+.exhibitions img {
+    width: 380px;
+}

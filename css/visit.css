@@ -1,0 +1,87 @@
+.visit {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 30px;
+    gap: 10px;
+}
+
+.visit p {
+    font-size: 10px;
+    width: 150px;
+}
+
+.visit h3,
+.get-involved h3 {
+    font-size: 14px;
+}
+
+.ball img {
+    width: 350px;
+    margin: 10px 20px;
+}
+
+.ball {
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    background-color: var(--light-grey);
+    color: var(--dark-grey);
+    padding: 20px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.mammoth {
+    display: flex;
+    justify-content: center;
+}
+
+.mammoth img {
+    width: 380px;
+}
+
+.get-involved {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 30px;
+    gap: 10px;
+}
+
+.get-involved p {
+    font-size: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.newsletter {
+
+    background-color: var(--sand);
+    border: 1px solid #000;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.newsletter h2 {
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    border: 0.5px solid #000;
+    border-radius: 30px;
+    box-shadow: inset 0 0 2px;
+    margin: 10px 10px 10px 0px;
+    padding: 5px;
+    font-size: 12px;
+    max-width: 430px;
+}
+
