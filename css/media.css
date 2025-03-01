@@ -41,41 +41,25 @@
     }
 
     .visit {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         margin: 40px;
     }
 
-    .visit p {
-        width: 200px;
-    }
-
-    .ball {
-        grid-column: span 1;
-    }
-
-    .ball img {
-        width: 200px;
-        margin: 10px 20px;
-    }
-
-    .location {
-        grid-column: span 2;
-    }
+ 
 
     .get-involved {
-        grid-template-columns: repeat(2, 1fr);
-        width: 400px;
+        grid-template-columns: 1fr 1fr;
         margin: 40px;
         gap: 40px;
     }
 
-    .get-involved 
-
-    .mammoth {
-        grid-column: span 2;
-        width: 650px;
+    .mammoth-image {
+        max-width: 600px;
     }
 
+    .newsletter {
+        margin: 0px;
+    }
 }
 
 @media (min-width: 1000px){
@@ -256,6 +240,10 @@
     
     .exhibitions img {
         width: 400px;
+    }
+
+    .mammoth-image {
+        max-width: 750px;
     }
 }
 
