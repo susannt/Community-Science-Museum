@@ -49,6 +49,7 @@ h2 {
     grid-template-columns: 1fr;
     margin: 30px;
     gap: 10px;
+    width: 300px;
 }
 
 .get-involved p {
@@ -63,11 +64,11 @@ h2 {
 }
 
 .newsletter {
-
     background-color: var(--sand);
     border: 1px solid #000;
     border-radius: 30px;
     padding: 20px;
+    margin: 20px;
 }
 
 .newsletter h2 {

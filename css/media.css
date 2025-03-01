@@ -25,14 +25,55 @@
         max-height: 500px;
     }
 
-    .explore p,
-    .events p {
-        font-size: 16px;
+    h1 {
+        font-size: 24px;
     }
     
     .explore h2,
     .events h2 {
-        font-size: 24px;
+        font-size: 20px;
+    }
+
+    .explore p,
+    .events p,
+    .visit p {
+        font-size: 14px;
+    }
+
+    .visit {
+        grid-template-columns: repeat(3, 1fr);
+        margin: 40px;
+    }
+
+    .visit p {
+        width: 200px;
+    }
+
+    .ball {
+        grid-column: span 1;
+    }
+
+    .ball img {
+        width: 200px;
+        margin: 10px 20px;
+    }
+
+    .location {
+        grid-column: span 2;
+    }
+
+    .get-involved {
+        grid-template-columns: repeat(2, 1fr);
+        width: 400px;
+        margin: 40px;
+        gap: 40px;
+    }
+
+    .get-involved 
+
+    .mammoth {
+        grid-column: span 2;
+        width: 650px;
     }
 
 }
@@ -217,7 +258,6 @@
         width: 400px;
     }
 }
-
 
 @media (min-width: 1460px){
     .exhibitions {

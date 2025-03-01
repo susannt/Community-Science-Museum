@@ -88,7 +88,7 @@ nav {
 
 h1 {
     font-family: var(--font-primary);
-    font-weight: var(--font-weight-regular);
+    font-weight: var(--font-weight-medium);
     background-color: var(--light-grey);
     color: var(--dark-grey);
     padding: 20px;
