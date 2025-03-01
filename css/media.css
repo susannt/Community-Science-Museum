@@ -35,8 +35,7 @@
     }
 
     .explore p,
-    .events p,
-    .visit p {
+    .events p {
         font-size: 14px;
     }
 
@@ -44,8 +43,6 @@
         grid-template-columns: repeat(4, 1fr);
         margin: 40px;
     }
-
- 
 
     .get-involved {
         grid-template-columns: 1fr 1fr;
@@ -240,6 +237,10 @@
     
     .exhibitions img {
         width: 400px;
+    }
+
+    .visit p {
+        font-size: 14px;
     }
 
     .mammoth-image {
