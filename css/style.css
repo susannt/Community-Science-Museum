@@ -169,3 +169,19 @@ footer .socials i {
     margin-left: 15px;
 }
 
+.index p,
+.explore p,
+.exhibitions p,
+.events p,
+.visit p,
+.get-involved p {
+    font-size: 14px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 16;
+}
