@@ -66,6 +66,37 @@
     background-color: var(--sand);
 }
 
+.logo-transition {
+    position: relative;
+    display: inline-block;
+}
+
+.main-image,
+.hover-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hover-image {
+    position: absolute;
+    left: 30%;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.logo-transition:hover .hover-image {
+    opacity: 1;
+}
+
+.logo-transition:hover .main-image {
+    opacity: 0;
+    cursor: pointer;
+}
+
+.main-image {
+    transition: opacity 0.4s ease;
+}
 
 
 
